@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Govt. Art & Craft TTI & ITI Amritsar</title>
+
+<style>
+
+/* RESET */
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+body{background:#f2f5f9;}
+
+/* TOP BAR */
+.topbar{
+    background:#002147;
+    color:white;
+    padding:8px 10%;
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+}
+
+/* HEADER */
+.header{
+    background:white;
+    padding:15px 10%;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    border-bottom:3px solid #002147;
+}
+
+.logo{
+    width:60px;
+    height:60px;
+    background:#ddd;
+    border-radius:50%;
+}
+
+.header h1{
+    color:#002147;
+    font-size:24px;
+}
+
+/* NAVBAR */
+nav{
+    background:#003366;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    position:relative;
+}
+
+nav ul li a{
+    display:block;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li:hover{
+    background:#002147;
+}
+
+/* DROPDOWN */
+nav ul li ul{
+    display:none;
+    position:absolute;
+    background:#003366;
+    top:50px;
+    min-width:200px;
+}
+
+nav ul li:hover ul{
+    display:block;
+}
+
+nav ul li ul li{
+    display:block;
+}
+
+/* HERO SLIDER */
+.hero{
+    height:400px;
+    background:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1') center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:42px;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+}
+
+/* MAIN LAYOUT */
+.container{
+    padding:50px 10%;
+}
+
+.section{
+    background:white;
+    margin-bottom:30px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.section h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#eef3ff;
+    padding:20px;
+    border-radius:8px;
+    text-align:center;
+}
+
+/* NOTICE BOARD */
+.notice{
+    background:#fff3cd;
+    padding:12px;
+    margin-bottom:10px;
+    border-left:5px solid #ffc107;
+}
+
+/* GALLERY */
+.gallery img{
+    width:100%;
+    border-radius:8px;
+}
+
+/* CONTACT */
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{background:#002147;}
+
+/* FOOTER */
+footer{
+    background:#002147;
+    color:white;
+    padding:40px 10%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+footer h3{margin-bottom:10px;}
+
+.copyright{
+    text-align:center;
+    background:#00152b;
+    color:white;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+    <div>?? +91 XXXXX XXXXX</div>
+    <div>? info@itiamritsar.edu.in</div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="logo"></div>
+    <h1>Government Art & Craft TTI & ITI Amritsar</h1>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+
+<li>
+<a href="#">Admissions ?</a>
+<ul>
+<li><a href="#">Eligibility</a></li>
+<li><a href="#">Fee Structure</a></li>
+<li><a href="#">Apply Online</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#">Student Corner ?</a>
+<ul>
+<li><a href="#">Results</a></li>
+<li><a href="#">Timetable</a></li>
+<li><a href="#">Scholarships</a></li>
+</ul>
+</li>
+
+<li><a href="#">Staff</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h2>Welcome to Govt. Art & Craft TTI & ITI Amritsar</h2>
+</div>
+
+<div class="container">
+
+<!-- ABOUT -->
+<div class="section">
+<h2>About Institute</h2>
+<p>
+This institute provides high-quality technical education, vocational training,
+and teacher training programs to prepare students for professional careers
+and self-employment.
+</p>
+</div>
+
+<!-- COURSES -->
+<div class="section">
+<h2>Courses / Trades</h2>
+<div class="cards">
+<div class="card"><h3>Art & Craft Training</h3></div>
+<div class="card"><h3>Technical ITI Trades</h3></div>
+<div class="card"><h3>Computer Courses</h3></div>
+<div class="card"><h3>Teacher Training</h3></div>
+</div>
+</div>
+
+<!-- STUDENT CORNER -->
+<div class="section">
+<h2>Student Corner</h2>
+<ul>
+<li>Admissions & Eligibility</li>
+<li>Fee Structure</li>
+<li>Exam Schedule</li>
+<li>Results & Certificates</li>
+</ul>
+</div>
+
+<!-- STAFF -->
+<div class="section">
+<h2>Staff Directory</h2>
+<div class="cards">
+<div class="card"><h3>Principal</h3></div>
+<div class="card"><h3>Faculty Members</h3></div>
+<div class="card"><h3>Office Staff</h3></div>
+</div>
+</div>
+
+<!-- NOTICE BOARD -->
+<div class="section">
+<h2>Notice Board</h2>
+<div class="notice">Admission open for 2026 session</div>
+<div class="notice">Annual exams starting in March</div>
+<div class="notice">Scholarship forms available</div>
+</div>
+
+<!-- GALLERY -->
+<div class="section">
+<h2>Gallery</h2>
+<div class="cards gallery">
+<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b">
+<img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+<img src="https://images.unsplash.com/photo-1513258496099-48168024aec0">
+</div>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+<h2>Contact Us</h2>
+<p><b>Address:</b> Hall Gate, Amritsar, Punjab</p>
+<p><b>Phone:</b> +91 XXXXX XXXXX</p>
+<p><b>Email:</b> info@itiamritsar.edu.in</p>
+
+<h3>Send Message</h3>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button>Submit</button>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+<div>
+<h3>About</h3>
+<p>Government technical institute providing quality vocational education.</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<p>Admissions</p>
+<p>Results</p>
+<p>Staff</p>
+<p>Contact</p>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>Hall Gate, Amritsar</p>
+<p>Punjab, India</p>
+</div>
+</footer>
+
+<div class="copyright">
+© 2026 Govt. Art & Craft TTI & ITI Amritsar — All Rights Reserved
+</div>
+
+</body>
+</html>
